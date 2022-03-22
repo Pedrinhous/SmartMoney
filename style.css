@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+@keyframes fadein {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+body {
+  background-color: #181818;
+  color: #fff;
+  animation: fadein 6s;
+}
+#logo h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+#logo h1 span {
+  color: #0956e6;
+}
+
+#banner {
+  display: flex;
+  margin-top: 40px;
+}
+
+#banner img {
+  width: 550px;
+  height: 300px;
+  margin-left: 30px;
+}
+
+#texto h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+#texto h3 {
+  font-size: 36px;
+}
+
+#texto h3 span {
+  color: #0956e6;
+}
+
+#texto button {
+  background-color: #0956e6;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 20px;
+  transition: background 0.5s;
+}
+
+#texto button:hover {
+  background-color: #6704e9;
+}
+.wrapper {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
